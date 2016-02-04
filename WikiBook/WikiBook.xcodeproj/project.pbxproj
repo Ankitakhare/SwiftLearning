@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4FEE311C63C2A3000B3B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FEE301C63C2A3000B3B4A /* AppDelegate.swift */; };
+		BC4FEE361C63C2A3000B3B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE341C63C2A3000B3B4A /* Main.storyboard */; };
+		BC4FEE381C63C2A3000B3B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE371C63C2A3000B3B4A /* Assets.xcassets */; };
+		BC4FEE3B1C63C2A3000B3B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE391C63C2A3000B3B4A /* LaunchScreen.storyboard */; };
+		BC4FEE461C63C2A3000B3B4A /* WikiBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FEE451C63C2A3000B3B4A /* WikiBookTests.swift */; };
+		BC4FEE511C63C2A3000B3B4A /* WikiBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FEE501C63C2A3000B3B4A /* WikiBookUITests.swift */; };
+		BC4FEE621C63C2E3000B3B4A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE5E1C63C2E3000B3B4A /* back.png */; };
+		BC4FEE631C63C2E3000B3B4A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE5F1C63C2E3000B3B4A /* close.png */; };
+		BC4FEE641C63C2E3000B3B4A /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE601C63C2E3000B3B4A /* next.png */; };
+		BC4FEE651C63C2E3000B3B4A /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE611C63C2E3000B3B4A /* previous.png */; };
+		BC4FEE6B1C63C34F000B3B4A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FEE661C63C34F000B3B4A /* ListView.swift */; };
+		BC4FEE6C1C63C34F000B3B4A /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FEE671C63C34F000B3B4A /* InputView.swift */; };
+		BC4FEE6D1C63C34F000B3B4A /* myjs.js in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE681C63C34F000B3B4A /* myjs.js */; };
+		BC4FEE6E1C63C34F000B3B4A /* myReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FEE691C63C34F000B3B4A /* myReaderView.swift */; };
+		BC4FEE6F1C63C34F000B3B4A /* second.js in Resources */ = {isa = PBXBuildFile; fileRef = BC4FEE6A1C63C34F000B3B4A /* second.js */; };
+		BC4FEE711C63C3C3000B3B4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4FEE701C63C3C3000B3B4A /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC4FEE421C63C2A3000B3B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4FEE251C63C2A3000B3B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4FEE2C1C63C2A3000B3B4A;
+			remoteInfo = WikiBook;
+		};
+		BC4FEE4D1C63C2A3000B3B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4FEE251C63C2A3000B3B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4FEE2C1C63C2A3000B3B4A;
+			remoteInfo = WikiBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC4FEE2D1C63C2A3000B3B4A /* WikiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4FEE301C63C2A3000B3B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC4FEE351C63C2A3000B3B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC4FEE371C63C2A3000B3B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC4FEE3A1C63C2A3000B3B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC4FEE3C1C63C2A3000B3B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4FEE411C63C2A3000B3B4A /* WikiBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4FEE451C63C2A3000B3B4A /* WikiBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiBookTests.swift; sourceTree = "<group>"; };
+		BC4FEE471C63C2A3000B3B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4FEE4C1C63C2A3000B3B4A /* WikiBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4FEE501C63C2A3000B3B4A /* WikiBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiBookUITests.swift; sourceTree = "<group>"; };
+		BC4FEE521C63C2A3000B3B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4FEE5E1C63C2E3000B3B4A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		BC4FEE5F1C63C2E3000B3B4A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		BC4FEE601C63C2E3000B3B4A /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		BC4FEE611C63C2E3000B3B4A /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		BC4FEE661C63C34F000B3B4A /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		BC4FEE671C63C34F000B3B4A /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		BC4FEE681C63C34F000B3B4A /* myjs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = myjs.js; sourceTree = "<group>"; };
+		BC4FEE691C63C34F000B3B4A /* myReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myReaderView.swift; sourceTree = "<group>"; };
+		BC4FEE6A1C63C34F000B3B4A /* second.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = second.js; sourceTree = "<group>"; };
+		BC4FEE701C63C3C3000B3B4A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC4FEE2A1C63C2A3000B3B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4FEE3E1C63C2A3000B3B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4FEE491C63C2A3000B3B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC4FEE241C63C2A3000B3B4A = {
+			isa = PBXGroup;
+			children = (
+				BC4FEE2F1C63C2A3000B3B4A /* WikiBook */,
+				BC4FEE441C63C2A3000B3B4A /* WikiBookTests */,
+				BC4FEE4F1C63C2A3000B3B4A /* WikiBookUITests */,
+				BC4FEE2E1C63C2A3000B3B4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC4FEE2E1C63C2A3000B3B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC4FEE2D1C63C2A3000B3B4A /* WikiBook.app */,
+				BC4FEE411C63C2A3000B3B4A /* WikiBookTests.xctest */,
+				BC4FEE4C1C63C2A3000B3B4A /* WikiBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC4FEE2F1C63C2A3000B3B4A /* WikiBook */ = {
+			isa = PBXGroup;
+			children = (
+				BC4FEE701C63C3C3000B3B4A /* ViewController.swift */,
+				BC4FEE661C63C34F000B3B4A /* ListView.swift */,
+				BC4FEE671C63C34F000B3B4A /* InputView.swift */,
+				BC4FEE681C63C34F000B3B4A /* myjs.js */,
+				BC4FEE691C63C34F000B3B4A /* myReaderView.swift */,
+				BC4FEE6A1C63C34F000B3B4A /* second.js */,
+				BC4FEE5E1C63C2E3000B3B4A /* back.png */,
+				BC4FEE5F1C63C2E3000B3B4A /* close.png */,
+				BC4FEE601C63C2E3000B3B4A /* next.png */,
+				BC4FEE611C63C2E3000B3B4A /* previous.png */,
+				BC4FEE301C63C2A3000B3B4A /* AppDelegate.swift */,
+				BC4FEE341C63C2A3000B3B4A /* Main.storyboard */,
+				BC4FEE371C63C2A3000B3B4A /* Assets.xcassets */,
+				BC4FEE391C63C2A3000B3B4A /* LaunchScreen.storyboard */,
+				BC4FEE3C1C63C2A3000B3B4A /* Info.plist */,
+			);
+			path = WikiBook;
+			sourceTree = "<group>";
+		};
+		BC4FEE441C63C2A3000B3B4A /* WikiBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC4FEE451C63C2A3000B3B4A /* WikiBookTests.swift */,
+				BC4FEE471C63C2A3000B3B4A /* Info.plist */,
+			);
+			path = WikiBookTests;
+			sourceTree = "<group>";
+		};
+		BC4FEE4F1C63C2A3000B3B4A /* WikiBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC4FEE501C63C2A3000B3B4A /* WikiBookUITests.swift */,
+				BC4FEE521C63C2A3000B3B4A /* Info.plist */,
+			);
+			path = WikiBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC4FEE2C1C63C2A3000B3B4A /* WikiBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4FEE551C63C2A3000B3B4A /* Build configuration list for PBXNativeTarget "WikiBook" */;
+			buildPhases = (
+				BC4FEE291C63C2A3000B3B4A /* Sources */,
+				BC4FEE2A1C63C2A3000B3B4A /* Frameworks */,
+				BC4FEE2B1C63C2A3000B3B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiBook;
+			productName = WikiBook;
+			productReference = BC4FEE2D1C63C2A3000B3B4A /* WikiBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC4FEE401C63C2A3000B3B4A /* WikiBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4FEE581C63C2A3000B3B4A /* Build configuration list for PBXNativeTarget "WikiBookTests" */;
+			buildPhases = (
+				BC4FEE3D1C63C2A3000B3B4A /* Sources */,
+				BC4FEE3E1C63C2A3000B3B4A /* Frameworks */,
+				BC4FEE3F1C63C2A3000B3B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC4FEE431C63C2A3000B3B4A /* PBXTargetDependency */,
+			);
+			name = WikiBookTests;
+			productName = WikiBookTests;
+			productReference = BC4FEE411C63C2A3000B3B4A /* WikiBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC4FEE4B1C63C2A3000B3B4A /* WikiBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4FEE5B1C63C2A3000B3B4A /* Build configuration list for PBXNativeTarget "WikiBookUITests" */;
+			buildPhases = (
+				BC4FEE481C63C2A3000B3B4A /* Sources */,
+				BC4FEE491C63C2A3000B3B4A /* Frameworks */,
+				BC4FEE4A1C63C2A3000B3B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC4FEE4E1C63C2A3000B3B4A /* PBXTargetDependency */,
+			);
+			name = WikiBookUITests;
+			productName = WikiBookUITests;
+			productReference = BC4FEE4C1C63C2A3000B3B4A /* WikiBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC4FEE251C63C2A3000B3B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ankita;
+				TargetAttributes = {
+					BC4FEE2C1C63C2A3000B3B4A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BC4FEE401C63C2A3000B3B4A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC4FEE2C1C63C2A3000B3B4A;
+					};
+					BC4FEE4B1C63C2A3000B3B4A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC4FEE2C1C63C2A3000B3B4A;
+					};
+				};
+			};
+			buildConfigurationList = BC4FEE281C63C2A3000B3B4A /* Build configuration list for PBXProject "WikiBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC4FEE241C63C2A3000B3B4A;
+			productRefGroup = BC4FEE2E1C63C2A3000B3B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4FEE2C1C63C2A3000B3B4A /* WikiBook */,
+				BC4FEE401C63C2A3000B3B4A /* WikiBookTests */,
+				BC4FEE4B1C63C2A3000B3B4A /* WikiBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC4FEE2B1C63C2A3000B3B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4FEE621C63C2E3000B3B4A /* back.png in Resources */,
+				BC4FEE6F1C63C34F000B3B4A /* second.js in Resources */,
+				BC4FEE3B1C63C2A3000B3B4A /* LaunchScreen.storyboard in Resources */,
+				BC4FEE641C63C2E3000B3B4A /* next.png in Resources */,
+				BC4FEE651C63C2E3000B3B4A /* previous.png in Resources */,
+				BC4FEE381C63C2A3000B3B4A /* Assets.xcassets in Resources */,
+				BC4FEE6D1C63C34F000B3B4A /* myjs.js in Resources */,
+				BC4FEE631C63C2E3000B3B4A /* close.png in Resources */,
+				BC4FEE361C63C2A3000B3B4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4FEE3F1C63C2A3000B3B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4FEE4A1C63C2A3000B3B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC4FEE291C63C2A3000B3B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4FEE711C63C3C3000B3B4A /* ViewController.swift in Sources */,
+				BC4FEE6C1C63C34F000B3B4A /* InputView.swift in Sources */,
+				BC4FEE311C63C2A3000B3B4A /* AppDelegate.swift in Sources */,
+				BC4FEE6E1C63C34F000B3B4A /* myReaderView.swift in Sources */,
+				BC4FEE6B1C63C34F000B3B4A /* ListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4FEE3D1C63C2A3000B3B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4FEE461C63C2A3000B3B4A /* WikiBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4FEE481C63C2A3000B3B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4FEE511C63C2A3000B3B4A /* WikiBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC4FEE431C63C2A3000B3B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4FEE2C1C63C2A3000B3B4A /* WikiBook */;
+			targetProxy = BC4FEE421C63C2A3000B3B4A /* PBXContainerItemProxy */;
+		};
+		BC4FEE4E1C63C2A3000B3B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4FEE2C1C63C2A3000B3B4A /* WikiBook */;
+			targetProxy = BC4FEE4D1C63C2A3000B3B4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC4FEE341C63C2A3000B3B4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4FEE351C63C2A3000B3B4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC4FEE391C63C2A3000B3B4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4FEE3A1C63C2A3000B3B4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC4FEE531C63C2A3000B3B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC4FEE541C63C2A3000B3B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC4FEE561C63C2A3000B3B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WikiBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankita.WikiBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC4FEE571C63C2A3000B3B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WikiBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankita.WikiBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC4FEE591C63C2A3000B3B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WikiBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankita.WikiBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiBook.app/WikiBook";
+			};
+			name = Debug;
+		};
+		BC4FEE5A1C63C2A3000B3B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WikiBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankita.WikiBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiBook.app/WikiBook";
+			};
+			name = Release;
+		};
+		BC4FEE5C1C63C2A3000B3B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WikiBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankita.WikiBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WikiBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC4FEE5D1C63C2A3000B3B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WikiBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankita.WikiBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WikiBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC4FEE281C63C2A3000B3B4A /* Build configuration list for PBXProject "WikiBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4FEE531C63C2A3000B3B4A /* Debug */,
+				BC4FEE541C63C2A3000B3B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4FEE551C63C2A3000B3B4A /* Build configuration list for PBXNativeTarget "WikiBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4FEE561C63C2A3000B3B4A /* Debug */,
+				BC4FEE571C63C2A3000B3B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC4FEE581C63C2A3000B3B4A /* Build configuration list for PBXNativeTarget "WikiBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4FEE591C63C2A3000B3B4A /* Debug */,
+				BC4FEE5A1C63C2A3000B3B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC4FEE5B1C63C2A3000B3B4A /* Build configuration list for PBXNativeTarget "WikiBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4FEE5C1C63C2A3000B3B4A /* Debug */,
+				BC4FEE5D1C63C2A3000B3B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC4FEE251C63C2A3000B3B4A /* Project object */;
+}
